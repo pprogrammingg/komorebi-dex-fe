@@ -7,9 +7,6 @@ import { Routes, Route } from "react-router-dom"
 import { RadixDappToolkit } from '@radixdlt/radix-dapp-toolkit'
 
 function App() {
-
-  console.log("env: " + process.env.REACT_APP_DAPP_DEFINITION_ACCOUNT)
-
   const rdt = RadixDappToolkit(
     { dAppDefinitionAddress: process.env.REACT_APP_DAPP_DEFINITION_ACCOUNT, dAppName: 'komorebi' },
     (requestData) => {

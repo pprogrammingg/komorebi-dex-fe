@@ -1,6 +1,7 @@
 import React from 'react'
-import Logo from "../moralis-logo.svg"
-import Eth from "../eth.svg"
+// import Logo from "../moralis-logo.svg"
+import Logo from "../komorebi-logo-4.svg"
+import radix_network from "../radix-network-logo.svg"
 import { Link } from "react-router-dom"
 
 function Header() {
@@ -20,8 +21,7 @@ function Header() {
       </div>
       <div className="rightH">
         <div className="headerItem">
-          <img src={ Eth } alt="eth" className="eth" />
-          Ethereum
+          <img src={ radix_network } alt="radix_network" className="radix-network" />
         </div>
       </div>
     </header>
